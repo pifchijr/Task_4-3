@@ -1,0 +1,55 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="Task_4_3_App.MainWindow"
+        Title="Task_4-3">
+    <Grid RowDefinitions = "auto, *"
+          Background = "#FF1E00"
+          ColumnDefinitions = "*, *">
+
+
+            <DockPanel 
+                Background = "#191719"
+                Height = "40"
+                HorizontalAlignment = "Stretch"
+                Grid.Row = "0"
+                Grid.ColumnSpan = "2">
+                <TextBlock Margin = "0 10" FontFamily="Times New Roman" Foreground = "#FFEB00">Home</TextBlock>
+                <TextBlock Margin = "15 9" FontFamily="Times New Roman" Foreground = "#FFEB00">About</TextBlock>
+                <TextBlock Margin = "15 9" FontFamily="Times New Roman" Foreground = "#FFEB00">Blog's Main Topic 1</TextBlock>
+                <TextBlock Margin = "15 9" FontFamily="Times New Roman" Foreground = "#FFEB00">Blog's Main Topic 3</TextBlock>
+                <TextBlock Margin = "15 9" FontFamily="Times New Roman" Foreground = "#FFEB00">Associated Blogs</TextBlock>
+                <TextBlock Margin = "0 16 3 1" TextAlignment = "Right" FontFamily="Times New Roman" Foreground = "#FFEB00">RSS</TextBlock>
+            </DockPanel>
+
+
+                <StackPanel
+                        Grid.Row = "1"
+                        Grid.Column = "0"
+                        Background = "#332932"
+                        Orientation="Vertical">
+                <TextBlock HorizontalAlignment="Center" TextWrapping = "Wrap" Margin = "5 15" FontSize="20" FontFamily="Century Gothic" TextAlignment = "Left" Foreground = "#FFEB00">Pellentesque vel lobortis orci. Maecenas sodales, est ut pulvinar consectetur, neque lorem efficitur lacus, vitae lacinia ligula enim vitae metus. Morbi et scelerisque metus, a vulputate justo. Proin bibendum, libero sed cursus mollis, metus sapien tristique tellus, vitae malesuada neque justo vel orci. Nullam tincidunt, metus id convallis dictum, urna neque convallis dui, sed aliquam mauris magna vel lectus. Vivamus facilisis velit eu tortor ultrices convallis. Fusce luctus ipsum ac sem mattis vulputate. Mauris ultrices iaculis risus, sit amet convallis nisi gravida in. Vestibulum finibus turpis nisi, id maximus enim elementum quis. Aliquam erat volutpat. Quisque bibendum blandit fermentum. Phasellus elit tellus, mattis et erat ut, pellentesque tempor dolor. Vivamus pretium leo quis velit posuere, quis suscipit tellus accumsan. Nulla facilisi.
+
+In viverra dui at nulla aliquam porttitor. Maecenas pellentesque ante ex, pretium suscipit sapien mattis ut. Nam sed ante elementum, euismod sapien et, vestibulum erat. Aenean non tortor enim. Suspendisse ut turpis porta, volutpat nisl eu, commodo magna. Nam eget augue at ex sollicitudin egestas vitae tempus lectus. Morbi malesuada nulla sed elit dictum molestie. Praesent bibendum, ligula at dapibus efficitur, nulla nulla gravida magna, ac tincidunt ipsum lectus vitae velit. Pellentesque pretium mi nunc, quis ultricies nulla ultrices nec.
+
+Phasellus ut felis molestie, ultricies velit vel, egestas neque. Ut volutpat nunc quis orci molestie, et pellentesque felis interdum. Vivamus tincidunt arcu odio. Nulla odio lacus, viverra eu semper sit amet, egestas eu urna. Fusce id porta arcu. Nam vel dolor gravida, malesuada mi nec, imperdiet quam. Curabitur cursus risus et ante porttitor efficitur. Pellentesque ex dolor, ullamcorper ac nunc sit amet, facilisis finibus nisl. Maecenas dictum ligula ac ligula blandit efficitur.
+
+Donec venenatis, ante eu lacinia fringilla, quam orci tincidunt ipsum, quis pellentesque dui augue sit amet libero. Donec sodales, est vel mollis pretium, ex lacus pretium lacus, ut blandit erat est et arcu. Nulla id elit vel eros cursus ultricies. Nulla ultricies ullamcorper nisi sit amet lacinia. Phasellus eu lacus dignissim, maximus mauris eget, blandit diam. Integer malesuada nulla ut mi euismod interdum. Sed mattis vehicula pulvinar. Etiam ac placerat ipsum. Nam feugiat vehicula lacus, quis mattis augue cursus venenatis. Maecenas mattis a libero et auctor. Quisque dolor orci, eleifend vel luctus eget, commodo vitae quam. Pellentesque dignissim purus eu lorem gravida, a elementum nulla dapibus.
+
+Phasellus in ante nulla. Duis eget nisl quis justo porttitor tristique id eget sem. Donec eu justo diam. Aliquam erat volutpat. Maecenas ut purus ac dui sagittis consectetur. Etiam id odio porta, efficitur risus ac, finibus lectus. Aenean dapibus ipsum nisl, non gravida lacus semper ut. Nullam a felis porttitor, bibendum sapien non, pretium ante. Mauris eleifend massa a nunc condimentum, non dapibus sapien tempor. Etiam justo tellus, accumsan ut semper et, pharetra et ex. Maecenas cursus metus non dui hendrerit pellentesque. Nunc massa purus, vehicula id mi vel, molestie dictum magna. Ut viverra dolor lacus, ac rutrum massa porta cursus. Maecenas mauris ante, tempor ac ante ut, cursus rhoncus tellus. Curabitur eu sodales orci. Mauris at porta justo.</TextBlock>
+                <TextBlock FontFamily="Times New Roman" Foreground = "#FFEB00">Tags: Tag1 Tag2 Tag3 Tag4</TextBlock>
+                </StackPanel>
+                        
+
+                        <StackPanel 
+                                Grid.Row = "1"
+                                Grid.Column = "1"
+                                Background = "#332932">
+                        <TextBlock HorizontalAlignment="Center" FontSize="50" FontFamily="Arial" Foreground = "#FFEB00" Margin = "350 350">Image</TextBlock>
+                        </StackPanel>
+
+
+    </Grid>
+</Window>
